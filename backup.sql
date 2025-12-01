@@ -29,4 +29,3 @@ Catatan:
 - Kompres hangat di dahi, leher, ketiak
 - Konsumsi makanan bergizi ringan dan mudah dicerna
 - Gunakan pakaian yang tidak terlalu tebal agar panas mudah keluar', '2025-11-28 10:45:00', '2025-11-28 19:08:43', '2025-11-28 19:10:37');
-

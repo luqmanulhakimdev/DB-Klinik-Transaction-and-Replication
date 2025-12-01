@@ -8,6 +8,7 @@ mysql installation in local(use linux ubuntudistro environment):
 - GRANT ALL PRIVILEGES ON *.* TO 'namauser'@'localhost' WITH GRANT OPTION;
 - FLUSH PRIVILEGES;
 - do run the migration.sql and backup.sql
+- do run the transaction.sql
 
 ## Screenshot
 ### Commit

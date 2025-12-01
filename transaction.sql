@@ -44,4 +44,7 @@ BEGIN
     INSERT INTO log_update_pasien(id_pasien, nama_pasien_lama, nama_pasien_baru, created_at, updated_at)
     VALUES (OLD.id_pasiend, OLD.nama_pasien, NEW.nama_pasien, NOW(), NOW());
 END $$
-DELIMITER ;
+DELIMITER;
+
+-- run update query for trigger add log
+UPDATE pasien SET nama_pasien = 'Sulistya Ramadhan' WHERE id_pasien = 1;
